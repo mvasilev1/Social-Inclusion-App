@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Noteworthy.ttc">
+            <string>Noteworthy-Light</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ASg-yf-xXN">
+                                <rect key="frame" x="162.5" y="261" width="50" height="32"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smiley-1635449_1280" translatesAutoresizingMaskIntoConstraints="NO" id="8jS-nO-HIC">
+                                <rect key="frame" x="167.5" y="313.5" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="DSj-wa-fEG"/>
+                                    <constraint firstAttribute="height" constant="40" id="o8R-a5-jnQ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8jS-nO-HIC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="5Dc-P4-23t"/>
+                            <constraint firstItem="ASg-yf-xXN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Bm7-Wj-gRe"/>
+                            <constraint firstItem="ASg-yf-xXN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Jvb-tX-OZE"/>
+                            <constraint firstItem="ASg-yf-xXN" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-56.5" id="PH3-e1-1Dm"/>
+                            <constraint firstItem="ASg-yf-xXN" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PqS-ra-sNY"/>
+                            <constraint firstItem="8jS-nO-HIC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QhE-V7-9NG"/>
+                            <constraint firstItem="8jS-nO-HIC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="R8k-n6-hhR"/>
+                            <constraint firstItem="8jS-nO-HIC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uZD-1g-G4W"/>
+                            <constraint firstItem="8jS-nO-HIC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yHk-kn-Kun"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="smiley-1635449_1280" width="1280" height="1280"/>
+    </resources>
+</document>
